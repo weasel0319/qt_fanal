@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource2048/2.png</file>
+        <file>resource2048/4.png</file>
+        <file>resource2048/8.png</file>
+        <file>resource2048/16.png</file>
+        <file>resource2048/32.png</file>
+        <file>resource2048/64.png</file>
+        <file>resource2048/128.png</file>
+        <file>resource2048/256.png</file>
+        <file>resource2048/512.png</file>
+        <file>resource2048/1024.png</file>
+        <file>resource2048/2048.png</file>
+        <file>resource2048/undo.png</file>
+    </qresource>
+    <qresource prefix="/resourceMain">
+        <file>resourceMain/q.png</file>
+        <file>resourceMain/pad.png</file>
+        <file>resourceMain/pad2.png</file>
+        <file>resourceMain/veda.png</file>
+    </qresource>
+    <qresource prefix="/yatzee">
+        <file>resourceyatzee/dice-six-faces-five.png</file>
+        <file>resourceyatzee/dice-six-faces-four.png</file>
+        <file>resourceyatzee/dice-six-faces-one.png</file>
+        <file>resourceyatzee/dice-six-faces-six.png</file>
+        <file>resourceyatzee/dice-six-faces-three.png</file>
+        <file>resourceyatzee/dice-six-faces-two.png</file>
+        <file>resourceyatzee/rule1.png</file>
+        <file>resourceyatzee/rule2.png</file>
+    </qresource>
+</RCC>

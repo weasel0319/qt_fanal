@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWidget</class>
+ <widget class="QWidget" name="MainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWidget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QStackedWidget" name="playGameStWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_1menu">
+      <layout class="QVBoxLayout" name="verticalLayout" stretch="3,2,1">
+       <item>
+        <widget class="QLabel" name="vedalabel">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1,1">
+         <item>
+          <widget class="QLabel" name="pad1label">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignmentFlag::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QStackedWidget" name="mainStWidget">
+           <property name="currentIndex">
+            <number>1</number>
+           </property>
+           <widget class="QWidget" name="page_1_StartMenu">
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0,0,0">
+               <item>
+                <widget class="QPushButton" name="gameSelectBt">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="autoFillBackground">
+                  <bool>false</bool>
+                 </property>
+                 <property name="text">
+                  <string>게임 선택</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="profileBt">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>프로필</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="exitBt">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>종료</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_2_GameMenu">
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_5">
+               <item>
+                <widget class="QPushButton" name="game2048Bt">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>2048</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="gameyatzeeBt">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Yatzee</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="backMainBt">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>돌아가기</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="pad2label">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignmentFlag::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Orientation::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_2profile">
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QPushButton" name="ProfilemakeBt">
+           <property name="text">
+            <string>프로필 생성</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ProfiledelBt">
+           <property name="text">
+            <string>프로필 삭제</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Orientation::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ProfilebackBt">
+           <property name="text">
+            <string>메뉴로 돌아가기</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="ProfilesearchBt">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Orientation::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ProfileeditBt">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>프로필 수정</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QScrollArea" name="scrollArea">
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>612</width>
+            <height>498</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_8">
+           <item>
+            <widget class="QListWidget" name="listWidgetProfile">
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="sortingEnabled">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>game2048Bt</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWidget</receiver>
+   <slot>open2048()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>303</x>
+     <y>349</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>304</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>exitBt</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWidget</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>303</x>
+     <y>456</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>367</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>profileBt</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWidget</receiver>
+   <slot>openProfile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>275</x>
+     <y>376</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>489</x>
+     <y>406</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ProfilemakeBt</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWidget</receiver>
+   <slot>createProfile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>69</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>62</x>
+     <y>3</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ProfiledelBt</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWidget</receiver>
+   <slot>delProfile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>133</x>
+     <y>37</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>165</x>
+     <y>7</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ProfilebackBt</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWidget</receiver>
+   <slot>returnMenu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>568</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>381</x>
+     <y>7</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ProfilesearchBt</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWidget</receiver>
+   <slot>searchProfile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>40</x>
+     <y>71</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>7</x>
+     <y>73</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>gameyatzeeBt</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWidget</receiver>
+   <slot>openyatzee()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>276</x>
+     <y>378</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>475</x>
+     <y>381</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ProfileeditBt</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWidget</receiver>
+   <slot>editProfile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>594</x>
+     <y>65</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>478</x>
+     <y>81</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>open2048()</slot>
+  <slot>openProfile()</slot>
+  <slot>createProfile()</slot>
+  <slot>delProfile()</slot>
+  <slot>returnMenu()</slot>
+  <slot>searchProfile()</slot>
+  <slot>openyatzee()</slot>
+  <slot>editProfile()</slot>
+ </slots>
+</ui>
